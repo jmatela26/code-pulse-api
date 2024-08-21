@@ -15,7 +15,7 @@ namespace CodePulse.API.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateCategory()
         {
-
+            return Ok();
         }
     }
 }
